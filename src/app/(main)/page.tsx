@@ -11,13 +11,13 @@ export async function generateMetadata(): Promise<Metadata> {
     const users = await User.all(false);
     const names = users.map((user) => user.name);
     const keywords = new Array();
-    
+
     keywords.push(...metadata.keywords!);
     keywords.push(...names);
-    
+
     return {
-        keywords
-    }
+        keywords,
+    };
 }
 
 export default function Home() {

@@ -30,7 +30,9 @@ export default async function BlogsPage() {
         <div className="p-4 sm:p-6 space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
                 <div>
-                    <h1 className="text-2xl sm:text-3xl font-bold">ブログ管理</h1>
+                    <h1 className="text-2xl sm:text-3xl font-bold">
+                        ブログ管理
+                    </h1>
                     <p className="text-muted-foreground mt-1">
                         投稿されたブログを一覧表示します（{publishedCount}/
                         {total} 公開中）

@@ -82,7 +82,9 @@ export default async function RootLayout({
                 <Analytics />
                 <SpeedInsights />
                 {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
-                    <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}/>
+                    <GoogleAnalytics
+                        gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}
+                    />
                 )}
             </body>
         </html>

@@ -10,8 +10,8 @@ import Link from "next/link";
 export function generateMetadata(): Metadata {
     return {
         title: "Blogs",
-        description: "UniSchoolメンバーの書いたブログ一覧ページです"
-    }
+        description: "UniSchoolメンバーの書いたブログ一覧ページです",
+    };
 }
 
 export default async function BlogsPage() {

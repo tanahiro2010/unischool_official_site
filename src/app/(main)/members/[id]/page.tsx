@@ -85,15 +85,16 @@ const teamConfig = {
 export async function generateMetadata({ params }: Context): Promise<Metadata> {
     const { id } = await params;
     const user = await User.get({ id }, true);
-    if (!user || !user.profile) return {
-        title: "Member not found",
-        description: "メンバーが見つかりません。"
-    }
+    if (!user || !user.profile)
+        return {
+            title: "Member not found",
+            description: "メンバーが見つかりません。",
+        };
 
     return {
         title: user.name + "のプロフィール",
-        description: user.profile.bio
-    }
+        description: user.profile.bio,
+    };
 }
 
 export default async function MemberPage({ params }: Context) {

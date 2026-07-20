@@ -25,8 +25,12 @@ function MemberCard({ member }: { member: Member }) {
                     height={400}
                     className="w-full h-auto rounded-md mb-4"
                 />
-                <h2 className="text-sm sm:text-lg font-medium">{member.name}</h2>
-                <p className="text-xs sm:text-sm text-neutral-600">{member.role}</p>
+                <h2 className="text-sm sm:text-lg font-medium">
+                    {member.name}
+                </h2>
+                <p className="text-xs sm:text-sm text-neutral-600">
+                    {member.role}
+                </p>
             </div>
         </Link>
     );

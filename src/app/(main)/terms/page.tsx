@@ -18,10 +18,18 @@ export default function Terms() {
             <section className="mb-10">
                 <h2 className="text-xl font-semibold mb-4">2. 定義</h2>
                 <ul className="list-disc pl-6 leading-relaxed space-y-2">
-                    <li>「本サービス」とは、当チームが運営・提供するウェブサイト及びソフトウェアをいいます。</li>
-                    <li>「ユーザー」とは、本サービスを利用する全ての個人をいいます。</li>
-                    <li>「コンテンツ」とは、本サービス上で提供される文章、画像、動画、音声、プログラムその他の情報をいいます。</li>
-                    <li>「アカウント」とは、ユーザーが本サービスの特定機能を利用するために登録する認証情報をいいます。</li>
+                    <li>
+                        「本サービス」とは、当チームが運営・提供するウェブサイト及びソフトウェアをいいます。
+                    </li>
+                    <li>
+                        「ユーザー」とは、本サービスを利用する全ての個人をいいます。
+                    </li>
+                    <li>
+                        「コンテンツ」とは、本サービス上で提供される文章、画像、動画、音声、プログラムその他の情報をいいます。
+                    </li>
+                    <li>
+                        「アカウント」とは、ユーザーが本サービスの特定機能を利用するために登録する認証情報をいいます。
+                    </li>
                 </ul>
             </section>
 
@@ -38,19 +46,24 @@ export default function Terms() {
                 <h2 className="text-xl font-semibold mb-4">4. アカウント</h2>
                 <div className="space-y-4 leading-relaxed">
                     <p>
-                        <strong>4.1 登録:</strong> 本サービスの一部機能を利用するには、アカウントの登録が必要な場合があります。
+                        <strong>4.1 登録:</strong>{" "}
+                        本サービスの一部機能を利用するには、アカウントの登録が必要な場合があります。
                         アカウント登録の際は、正確かつ最新の情報を提供するものとします。
                     </p>
                     <p>
-                        <strong>4.2 認証:</strong> 本サービスでは、Google Login（OAuth 2.0）を使用した認証を提供します。
-                        ユーザーは、自身の Google アカウントの利用規約に従い、適切にアカウントを管理する責任を負います。
+                        <strong>4.2 認証:</strong> 本サービスでは、Google
+                        Login（OAuth 2.0）を使用した認証を提供します。
+                        ユーザーは、自身の Google
+                        アカウントの利用規約に従い、適切にアカウントを管理する責任を負います。
                     </p>
                     <p>
-                        <strong>4.3 管理責任:</strong> ユーザーは、自身のアカウントの管理について一切の責任を負うものとします。
+                        <strong>4.3 管理責任:</strong>{" "}
+                        ユーザーは、自身のアカウントの管理について一切の責任を負うものとします。
                         アカウントの不正使用が判明した場合は、直ちに当チームに通知するものとします。
                     </p>
                     <p>
-                        <strong>4.4 アカウントの削除:</strong> ユーザーは、いつでもアカウントの削除を当チームに請求することができます。
+                        <strong>4.4 アカウントの削除:</strong>{" "}
+                        ユーザーは、いつでもアカウントの削除を当チームに請求することができます。
                         アカウント削除後は、法令に基づき保存が必要な情報を除き、関連するデータを消去します。
                     </p>
                 </div>
@@ -63,12 +76,20 @@ export default function Terms() {
                 </p>
                 <ul className="list-disc pl-6 leading-relaxed space-y-2">
                     <li>法令または公序良俗に違反する行為</li>
-                    <li>当チームまたは第三者の著作権、商標権、プライバシー権その他の権利を侵害する行為</li>
-                    <li>本サービスの運営を妨害する行為（不正アクセス、サーバーへの過負荷、脆弱性の悪用等）</li>
+                    <li>
+                        当チームまたは第三者の著作権、商標権、プライバシー権その他の権利を侵害する行為
+                    </li>
+                    <li>
+                        本サービスの運営を妨害する行為（不正アクセス、サーバーへの過負荷、脆弱性の悪用等）
+                    </li>
                     <li>他のユーザーになりすます行為</li>
                     <li>不正な目的で本サービスを利用する行為</li>
-                    <li>本サービスを通じて取得した情報を無断で転載、複製、販売する行為</li>
-                    <li>リバースエンジニアリング、逆コンパイル、逆アセンブル等の解析行為</li>
+                    <li>
+                        本サービスを通じて取得した情報を無断で転載、複製、販売する行為
+                    </li>
+                    <li>
+                        リバースエンジニアリング、逆コンパイル、逆アセンブル等の解析行為
+                    </li>
                     <li>その他、当チームが不適切と判断する行為</li>
                 </ul>
             </section>
@@ -86,17 +107,20 @@ export default function Terms() {
                 <h2 className="text-xl font-semibold mb-4">7. 免責事項</h2>
                 <div className="space-y-4 leading-relaxed">
                     <p>
-                        <strong>7.1 サービスの提供:</strong> 当チームは、本サービスを現状有姿（As Is）で提供します。
+                        <strong>7.1 サービスの提供:</strong>{" "}
+                        当チームは、本サービスを現状有姿（As Is）で提供します。
                         当チームは、本サービスの正確性、完全性、有用性、特定目的への適合性について、
                         明示的にも黙示的にも一切保証しません。
                     </p>
                     <p>
-                        <strong>7.2 中断・変更・中止:</strong> 当チームは、予告なく本サービスの内容を変更、
+                        <strong>7.2 中断・変更・中止:</strong>{" "}
+                        当チームは、予告なく本サービスの内容を変更、
                         または提供を中断・中止することがあります。これにより生じたいかなる損害についても、
                         当チームは責任を負いません。
                     </p>
                     <p>
-                        <strong>7.3 損害賠償:</strong> 当チームは、ユーザーが本サービスを利用したことにより
+                        <strong>7.3 損害賠償:</strong>{" "}
+                        当チームは、ユーザーが本サービスを利用したことにより
                         生じた直接的または間接的な損害について、一切の責任を負いません。
                         ただし、当チームの故意または重過失に起因する場合はこの限りではありません。
                     </p>
@@ -115,19 +139,29 @@ export default function Terms() {
                 <h2 className="text-xl font-semibold mb-4">9. プライバシー</h2>
                 <p className="leading-relaxed">
                     当チームは、ユーザーの個人情報を、別途定める
-                    <a href="/privacy" className="underline text-green-900 hover:underline">プライバシーポリシー</a>
+                    <a
+                        href="/privacy"
+                        className="underline text-green-900 hover:underline"
+                    >
+                        プライバシーポリシー
+                    </a>
                     に従って適切に取り扱います。
                     本サービスを利用することにより、ユーザーは当該プライバシーポリシーに同意したものとみなされます。
                 </p>
             </section>
 
             <section className="mb-10">
-                <h2 className="text-xl font-semibold mb-4">10. 外部サービスとの連携</h2>
+                <h2 className="text-xl font-semibold mb-4">
+                    10. 外部サービスとの連携
+                </h2>
                 <p className="leading-relaxed mb-4">
                     本サービスは、以下の外部サービスと連携する場合があります。
                 </p>
                 <ul className="list-disc pl-6 leading-relaxed space-y-2">
-                    <li>Google LLC が提供する各種サービス（Google Login、Google Analytics 等）</li>
+                    <li>
+                        Google LLC が提供する各種サービス（Google Login、Google
+                        Analytics 等）
+                    </li>
                 </ul>
                 <p className="leading-relaxed mt-4">
                     これらの外部サービスの利用には、各事業者が定める利用規約及びプライバシーポリシーが
@@ -146,7 +180,9 @@ export default function Terms() {
             </section>
 
             <section className="mb-10">
-                <h2 className="text-xl font-semibold mb-4">12. 準拠法及び管轄</h2>
+                <h2 className="text-xl font-semibold mb-4">
+                    12. 準拠法及び管轄
+                </h2>
                 <p className="leading-relaxed">
                     本規約は、日本法に準拠し、日本法に基づいて解釈されるものとします。
                     本規約に関して生じた紛争については、神戸地方裁判所を第一審の専属的合意管轄裁判所とします。

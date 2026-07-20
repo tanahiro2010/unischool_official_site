@@ -6,7 +6,9 @@ export default function ForbiddenPage() {
     return (
         <Container className="min-h-screen flex items-center justify-center px-4">
             <div className="text-center space-y-6">
-                <h1 className="text-6xl sm:text-8xl md:text-9xl font-bold text-primary">403</h1>
+                <h1 className="text-6xl sm:text-8xl md:text-9xl font-bold text-primary">
+                    403
+                </h1>
                 <h2 className="text-2xl sm:text-3xl font-semibold">
                     アクセスが拒否されました
                 </h2>

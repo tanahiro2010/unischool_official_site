@@ -45,7 +45,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         },
     ];
 
-    console.log("Sitemap generated with", articles.length, "articles and", users.length, "users");
+    console.log(
+        "Sitemap generated with",
+        articles.length,
+        "articles and",
+        users.length,
+        "users",
+    );
     console.log("Last modified date for blogs:", lastModified);
 
     return [

@@ -36,7 +36,8 @@ interface LoginHistoryViewProps {
 
 // ユーザーエージェントから簡易的にブラウザ情報を抽出
 const getBrowserInfo = (userAgent: string | null) => {
-    if (!userAgent) return { name: "Unknown", color: "bg-neutral-100 text-neutral-700" };
+    if (!userAgent)
+        return { name: "Unknown", color: "bg-neutral-100 text-neutral-700" };
     if (userAgent.includes("Chrome"))
         return { name: "Chrome", color: "bg-neutral-100 text-neutral-700" };
     if (userAgent.includes("Firefox"))

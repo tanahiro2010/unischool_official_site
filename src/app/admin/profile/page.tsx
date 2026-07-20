@@ -48,7 +48,9 @@ export default async function ProfilePage() {
                     {user.name.charAt(0).toUpperCase()}
                 </div>
                 <div>
-                    <h1 className="text-2xl sm:text-3xl font-bold">{user.name}</h1>
+                    <h1 className="text-2xl sm:text-3xl font-bold">
+                        {user.name}
+                    </h1>
                     <p className="text-muted-foreground mt-1 flex items-center gap-2">
                         <Mail className="h-4 w-4" />
                         {user.email}
